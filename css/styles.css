@@ -1,0 +1,323 @@
+/* Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+/* End Font*/
+
+/* Start Body */
+body {
+	background-image: url("images/gambar.jpg");
+    color: darkred;
+    font-family: Muli, Helvetica, 'Gill Sans MT', 'Trebuchet MS';
+		font-size: 16px;
+		line-height: 2.5em;
+    margin: 5;
+    padding: 5;  
+} 
+
+@media only screen and (max-width: 400px){
+	body {
+		font-size: 15px;
+		color: darkslategrey
+	}
+	.menu-primer li {
+		border-right: 1px solid #d1d5da;
+		width: 100%
+	}
+}
+/* End Body */
+
+/* Start Debug */
+.bg-logo {
+    background-color: lightskyblue
+}
+.bg-menu {
+    background-color: palevioletred
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+	text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+	color: #0366d5;
+	text-decoration: none;
+}
+a:hover
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+/* End Anchor / Hyperlink*/
+
+
+
+/* Start Menu Primer*/
+.menu-primer ul {
+	border-radius: 4px;
+	box-shadow:
+		0 3px 5px -1px rgba(0,0,0,.2),
+		0 6px 10px 0 rgba(0,0,0,.14),
+		0 1px 18px 0 rgba(0,0,0,.12);
+		text-align: center;
+}
+
+.menu-primer li {
+	border-right: 1px solid #d1d5da;
+	border-left: 1px solid #d1d5da;
+	display: inline-block;
+	
+}
+
+.menu-primer a {
+	color: #ffffff;
+	font-size: 13px;
+	display: inline-block;
+	letter-spacing: 1px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	
+}
+
+.menu-primer a:hover {
+	background-color: #ffffff;
+	color: #f6f8fa;
+	text-decoration: none;
+}
+
+.menu-primer .active {
+	background-color: #ffffff;
+	color: #333333;
+	text-decoration: none;
+}
+/* End Menu Primer */
+
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 450;
+	letter-spacing: 5px;
+}
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 21px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+	border: 5px solid #eaecef;
+	border-radius: 4px;
+	padding: 20px 0;
+}
+.jumbotron h1 {
+	font-size: 32px;
+	padding: 0 20px;
+}
+.jumbotron h3 {
+	font-size: 20px;
+	padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+	float: left;
+	width: 50%;
+}
+
+.main-home-two {
+	float: right;
+	width: 50%;
+}
+.main-home-three {
+	float: left;
+	width: 100%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi,
+.main-home-three .box-isi {
+	height: 140px;
+}
+/* End Main */
+
+
+/* Start Box */
+.box-heading {
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #adcff8;
+	border-radius: 3px 3px 0 0;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase
+}
+.box-heading h4 {
+	font-size: 14px;
+	margin: 0;
+}
+.box-isi {
+	border: 1px solid #adcff8;
+	border-top: 0;
+	margin: 0;
+	padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Menu Sekunder*/
+.menu-sekunder {
+	border-bottom: 1px solid;
+	border-top: #eaecef;
+	overflow: auto;
+	padding: 10px 0;	
+}
+.menu-sekunder h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/* End Menu Sekunder*/
+
+/* Start Effect */
+
+.snip1541 {
+	background-color: #fff;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 10px;
+	max-width: 25%;
+	min-width: 230px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+  }
+  
+  .snip1541 * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.45s ease;
+	transition: all 0.45s ease;
+  }
+  
+  .snip1541 img {
+	vertical-align: top;
+	max-width: 100%;
+	backface-visibility: hidden;
+  }
+  
+  .snip1541 figcaption {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 1em;
+	opacity: 0;
+	-webkit-transform: translateX(75%) rotate(180deg);
+	transform: translateX(75%) rotate(180deg);
+  }
+  
+  .snip1541 figcaption:before {
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #000000;
+	border-radius: 50%;
+	content: '';
+	height: 100px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	width: 100px;
+	z-index: -1;
+  }
+  
+  .snip1541 h3 {
+	font-size: 0.9em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0;
+	text-transform: uppercase;
+  }
+  
+  .snip1541 h3 span {
+	display: block;
+	font-weight: 800;
+  }
+  
+  .snip1541 a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+  }
+  
+  .snip1541:hover > img,
+  .snip1541.hover > img {
+	opacity: 0.1;
+  }
+  
+  .snip1541:hover figcaption,
+  .snip1541.hover figcaption {
+	-webkit-transform: translate(0px) rotate(0deg);
+	transform: translate(0px) rotate(0deg);
+	opacity: 1;
+  }
+/* End Effect */
+
+/* Start untuk HP */
+@media only screen and (max-width: 480px) {
+	.main-home-one {
+		/* float: left; */
+		width: 100%;
+	}
+	
+	.main-home-two {
+		/* float: right; */
+		width: 100%;
+	}
+
+}
+}
+/* End untuk HP */
