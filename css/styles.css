@@ -70,7 +70,6 @@ a:active {
 /* End Anchor / Hyperlink*/
 
 
-
 /* Start Menu Primer*/
 .menu-primer ul {
 	border-radius: 4px;
@@ -127,7 +126,7 @@ h3 {
 	font-size: 18px;
 }
 h4 {
-	font-size: 21px;
+	font-size: 16px;
 }
 h5 {
 	font-size: 14px;
@@ -165,13 +164,13 @@ h6 {
 }
 .main-home-three {
 	float: left;
-	width: 100%;
+	width: 95%;
 }
 
 .main-home-one .box-isi,
 .main-home-two .box-isi,
 .main-home-three .box-isi {
-	height: 140px;
+	height: 150px;
 }
 /* End Main */
 
@@ -179,7 +178,7 @@ h6 {
 /* Start Box */
 .box-heading {
 	background-color: rgb(255, 255, 255);
-	border: 1px solid #adcff8;
+	border: 1px solid #ffffff;
 	border-radius: 3px 3px 0 0;
 	margin: 0;
 	padding: 10px 20px;
@@ -190,10 +189,12 @@ h6 {
 	margin: 0;
 }
 .box-isi {
+	background-color: rgb(253, 223, 223);
 	border: 1px solid #adcff8;
-	border-top: 0;
-	margin: 0;
+	border-top: 2px;
+	margin: 1px;
 	padding: 10px 20px;
+	
 }
 /* End Box */
 
@@ -206,9 +207,85 @@ h6 {
 }
 .menu-sekunder h4 {
 	font-size: 14px;
+	margin: 0 auto;
 	text-transform: uppercase;
 }
+.menu-sekunder ul {
+	padding: 0;
+}
+.menu-sekunder li {
+	list-style: disc;
+}
+.menu-sekunder li a,
+.menu.sekunder p {
+	font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+	float: left;
+}
+.menu-sekunder-one {
+	width: 40%;
+}
+.menu-sekunder-two {
+	width: 20%;
+}
+.menu-sekunder-three {
+	width: 40%;
+}
+.menu-sekunder li img {
+	vertical-align: middle;
+}
 /* End Menu Sekunder*/
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 450;
+	letter-spacing: 5px;
+}
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbroton */
+.jumbotron {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	padding: 20px;
+}
+.jumbotron h1 {
+	font-size: 32px;
+	padding: 0 20px;
+}
+.jumbotron h3 {
+	font-size: 20px;
+	padding: 0 20px;
+}
+/* End Jumbroton */
+
+/* Start Copyright */
+.copyright p {
+	font-size: 15px;
+}
+/* End Copyright */
 
 /* Start Effect */
 
@@ -238,7 +315,7 @@ h6 {
 	vertical-align: top;
 	max-width: 100%;
 	backface-visibility: hidden;
-  }
+  } 
   
   .snip1541 figcaption {
 	position: absolute;
